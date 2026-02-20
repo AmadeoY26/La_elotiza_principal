@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<!---Especificacion de idioma para el lenguaje, util para el navegador--->
+<!---en = ingles, es = espanol--->
+<html lang="es">
+
+<head>
+    <!---Configuracion meta--->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---Titulo de la pagina--->
+    <title>El señor de los elotes</title>
+    <!---Descripcion de la pagina--->
+    <meta name = "Señor de los elotes" content = "Pagina oficial del Señor de los elotes, informacion general">
+    <!---Link para archivo CSS--->
+    <link rel="stylesheet" href="AbundisCss.css">
+    <!---Link para archivo Javascript--->
+    <script src="AbundisJS.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <!---Encabezado--->
+        <div class="logo-contenedor">
+            <img src="https://i.postimg.cc/D0Dj2Pzz/IMG-20260218-WA0012.jpg" alt="Logo El Señor de los Elotes" id="logo-principal">
+            <h1 id = "bienvenida" style="text-align: center;">El señor de los elotes</h1>
+        </div>
+    </header>
+    <main>
+        <section> <!--Bienvenida al sitio web-->
+            <p style="text-align: center;">Bienvenido al sitio oficial del <strong>Señor de los elotes</strong>, pagina donde podras consultar informacion sobre nosotros
+                y nuestros productos.<br><br> <strong> Aqui tienes el menu de navegacion para que encuentres lo que estas buscando</strong>
+            </p>
+        </section>    
+        <br>
+        <!--Menu de navegación-->
+        <section class="centralizado"> <!--Menu de navegacion principal-->
+            <h2>Menu de navegación</h2>
+            <nav id="pieDePagina" class="nav-estilo" style="text-align: center;">
+                <a href="#introduccion">Sobre nosotros</a>
+                <a href="#locales">Dónde estamos</a>
+                <a href="#eventos" >¡Contactanos para tu evento!</a> <br>
+                <a href="#redesSociales">Nuestras redes sociales</a>
+                <a href="#comentarios">Ir a comentarios y opiniones</a>
+                <a href="#navegacion">Ir al menu de navegación</a> <br>
+                <a href="https://amadeoy26.github.io/La_elotiza_menu/">¡Conoce nuestro menu!</a>
+            </nav>
+        </section>
+        <br>
+        <section class="section-centralizada"> <!--Breve introduccion a la empresa-->
+          <!--El encabezado debe estar centralizado-->  
+          <h2 id="introduccion">Sobre nosotros</h2>
+          <p style="text-align: center;">El <strong>Señor de los elotes</strong> es un emprendimiento mexicano con el objetivo de proporcionar y distribuir la tradicion
+            mexicana del consumo de elotes, proporcionamos diferentes productos que mezclan productos modernos con el tradicional elote,
+            también contamos con elotes en presentaciones mas tradicionales.
+          </p>
+
+        </section>   
+        <br>
+        <section class="section-centralizada"> <!--Ubicacion de locales-->
+            <!--El encabezado debe estar centralizado-->
+          <h3 id="locales">Ubicacion de los locales</h3> 
+          <table>
+            <tr>
+                <th>Ubicacion</th> <th>Numero de contacto de local</th> <th>Rappi</th> <th>Horario</th>
+            </tr>  
+            <tr>
+                <td><a href="https://maps.app.goo.gl/uZs5fqjvXGvn8vJfA?g_st=aw">Señor de los elotes - Paseos del Sol</a></td> <td>En proceso</td> <td>Disponible en Rappi</td> <td>6:00Pm - 10:30Pm</td>
+            </tr>  
+            <tr>
+                <td><a href="https://maps.app.goo.gl/6FafsTiRLrvyTH6i7?g_st=aw">Señor de los elotes - El sauz</a></td> <td>33 3491 7344</td> <td>Disponible en Rappi</td> <td>6:00Pm - 10:00Pm</td>
+            </tr>
+            <tr>
+                <td><a href="https://maps.app.goo.gl/XdCBGKBtyJ3u4BxcA?g_st=aw">El señor de los elotes - Atemajac del Valle</a></td> <td>33 2117 9722</td> <td>Disponible en Rappi</td> <td>7:00 Pm - 10:00Pm</td>
+            </tr>
+            <tr>
+                <td><a href="https://maps.app.goo.gl/P3Pc6CGJyK2f4T8i9?g_st=aw">Señor de los elotes - 8 de julio</a></td><td>33 2169 3911</td> <td>No disponible</td> <td>6:00 Pm - 10:00Pm</td>
+            </tr>
+
+          </table>  
+        </section>    
+        <br>
+        <section class="section-centralizada"> <!--Contacto para eventos-->
+            <!--El encabezado debe estar centralizado-->
+            <h3 id="eventos">Contacto para eventos</h3>
+            <p style="text-align: center;"><strong>¿Tienes algun evento proximo? ¡No busques más!</strong> contrata los servicios de eventos del 
+                <strong>Señor de los elotes</strong> y haz que tu evento sea <em>Delicioso</em> </p> 
+            <table>
+                <tr>
+                    <th>Tamaño de evento</th> <th>Cantidad media de elotes</th> <th>Servicios incluidos</th> <th>Precio estimado</th>
+                </tr>
+                <tr>
+                    <td>Evento masivo</td> <td>500</td> <td>Todos los ingredientes disponibles y Elotes con papas</td> <td>22500 MXN</td>
+                </tr>
+                <tr>
+                    <td>Evento grande</td> <td>300</td> <td>Todos los ingredientes disponibles y Elotes con papas</td> <td>13500 MXN</td>
+                </tr>
+                <tr>
+                    <td>Evento mediano</td> <td>150</td> <td>Todos los ingredientes disponibles y Elotes con papas</td> <td>6750 MXN</td>
+                </tr>
+                <tr>
+                    <td>Evento pequeño</td> <td>100</td> <td>Todos los ingredientes disponibles y Elotes con papas</td> <td>4500 MXN</td>
+                </tr>
+                <tr>
+                    <td>Evento casual</td> <td>50</td> <td>Todos los ingredientes disponibles, exceptuando: Queso amarillo y Papas</td> <td>2250 MXN</td>
+                </tr>
+            </table>   
+
+        </section>
+        <br>
+        <aside class="centralizado"> <!--Contacto para redes sociales-->
+            <h4 id="redesSociales">Redes sociales</h4> 
+            <p>Visia nuestras redes sociales para que estes al tanto del <strong>Señor de los elotes</strong></p><br><br>
+            <p style="text-align: center; font-size: large;">Instagram</p><br>
+            <img src="https://www.bing.com/th/id/OIP.Go2CQNhF_49tkKcpEl_sHQHaHZ?w=195&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"> <br>
+            <a href="https://www.instagram.com/elsenor.deloselotes?igsh=b25yanZrZjlobW1n">Instagram</a> <br>
+            <p style="text-align: center; font-size: large;">Tiktok</p><br>
+            <img src="https://th.bing.com/th/id/OIP.LbsHMSdyV4iC_nxgjP-hHAHaHa?w=205&h=205&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"> <br>
+            <a href="https://www.tiktok.com/@el.seor.de.los.el?_r=1&_t=ZS-9427dpb9ZEy">Tik tok</a>
+        </aside>
+        <br>
+
+    </main>
+    <footer>
+        <!---Pie de pagina: Última información--->
+        <!--Contenido para formularios - Aside de formularios-->    
+        <aside class="centralizado">
+            <h4 id="comentarios">¡Danos tú opinion!</h4>
+            <p>Para <strong>El señor de los elotes</strong> es de suma importancia conocer las opiniones de los clientes.<br>
+            Por favor dedica unos momentos para calificar nuestros servicios:</p><br>
+            <form class="form-elotero">
+                <label for="opinionGeneral">Danos una opinion sobre nuestros servicios en general</label><br>
+                <input type="text" id="opinionGeneral"><br>
+                <label for="productos">¿Qué opinas de nuestros productos?</label><br>
+                <input type="text" id="productos"><br>
+                <label for="comentarioMejora">Dejanos un comentario con alguna propuesta que tengas</label><br>
+                <input type="text" id="comentarioMejora"><br>
+                <input type="submit" >
+            </form>
+            <h4>Califica la pagina web</h4>
+            <p>Para seguir conectando contigo, dedica un tiempo a calificar la pagina web y enviarnos tus sugerencias.</p><br>
+            <form class="form-elotero">
+                <label for="informativa">¿Cómo calificarias el contenido informativo de la pagina web?</label>
+                <select id="informativa">
+                    <option selected>Informacion completa</option>
+                    <option>Informacion parcialmente completa</option>
+                    <option>Hace falta informacion vital</option>
+                    <option>Falta de informacion util</option>
+                </select>
+                <br>
+                <label for="agregaInfo">Describe la informacion que hace falta</label><br>
+                <input type="text" id="agregaInfo"><br>
+                <input type="submit">
+            </form>
+        </aside>
+        <!--A continuacion el menu de navegacion inferior-->
+        <aside class="centralizado">
+            <h5 style="text-align: center;">Menu de navegacion inferior</h5>
+            <nav id="pieDePagina" class="nav-estilo" style="text-align: center;">
+                <a href="#introduccion">Sobre nosotros</a>
+                <a href="#locales">Dónde estamos</a>
+                <a href="#eventos" >¡Contactanos para tu evento!</a> <br>
+                <a href="#redesSociales">Nuestras redes sociales</a>
+                <a href="#comentarios">Ir a comentarios y opiniones</a>
+                <a href="#navegacion">Ir al menu de navegación</a>
+            </nav>
+        </aside>
+    </footer>
+</body>
+
+</html>
